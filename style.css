@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #005082;
+}
+
+.row{
+    margin: 0px !important;
+}
+
+.card{
+    transform: translateY(-50%);
+    background-color: #ffa41b;
+    display: inline-block;
+}
+
+#word{
+    margin: 0px !important;
+    color: white;
+    padding: 40px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#velocidade{
+    margin: 0px !important;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#play,
+#mais,
+#menos{
+    color: white;
+    display: table;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#play:hover,
+#mais:hover,
+#menos:hover{
+    text-decoration: underline;
+}
